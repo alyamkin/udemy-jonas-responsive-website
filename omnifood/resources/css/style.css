@@ -49,6 +49,7 @@ section {
     padding: 1px;
 }
 
+
 /* ----- HEADINGS ----- */ 
 
 h1,h2,h3 {
@@ -284,6 +285,22 @@ header {
 .sticky .logo {
     display: none;
 }
+
+/* Mobile navigation */
+
+.mobile-nav-icon {
+    color: #fff;
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon ion-icon {
+    font-size: 200%;
+    color: #fff;
+}
+
 
 
 
@@ -617,3 +634,18 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
+
+
+/* ----------------------------------------------------------*/
+/* Animations */
+/* ----------------------------------------------------------*/
+
+.js--wp-1,
+.js--wp-2, 
+.js--wp-3  {
+    opacity: 0;
+    animation-duration: 1s;
+
+}
+
+

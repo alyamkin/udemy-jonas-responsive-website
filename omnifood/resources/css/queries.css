@@ -48,6 +48,9 @@
     .social-links li {
          margin-right: 10px;
     }
+
+
+
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -60,7 +63,38 @@
         width: 100%;
         margin: 0 0 4% 0; 
     }
-    .main-nav {display: none}
+    .main-nav {display: none;}
+
+    .mobile-nav-icon { display: inline-block; }
+
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+
+    .nav-list-item {
+        display: block;
+        /* margin-top: 15px; */
+    }
+
+    .nav-list-item a:link,
+    .nav-list-item a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .sticky .nav-list-item a:link,
+    .sticky .nav-list-item a:visited { padding: 10px 0; }
+
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .mobile-nav-icon ion-icon { color: #555 }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+
+
     .long-copy {
         width: 100%;
         margin: 0 auto;
@@ -102,4 +136,12 @@
 
    
 
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
 }
