@@ -49,7 +49,6 @@ section {
     padding: 1px;
 }
 
-
 /* ----- HEADINGS ----- */ 
 
 h1,h2,h3 {
@@ -200,7 +199,7 @@ input[type=submit]:active {
 /* ----------------------------------------------------------*/
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/hero-min.jpg);
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -428,7 +427,7 @@ header {
 /* ----------------------------------------------------------*/
 
 .section-testimonials {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/back-customers.jpg);
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/back-customers-min.jpg);
     background-size: cover;
     background-position: center;
     color: #fff;

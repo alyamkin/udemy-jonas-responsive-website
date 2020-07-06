@@ -49,8 +49,6 @@
          margin-right: 10px;
     }
 
-
-
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -138,10 +136,3 @@
 
 }
 
-.d-none {
-    display: none;
-}
-
-.d-block {
-    display: block;
-}
